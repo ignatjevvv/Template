@@ -31,6 +31,24 @@
     --small-font-size: ;
     --smaller-font-size: ;
 
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-black: 900;
+
+    /*========== Margenes Bottom ==========*/
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
     // Responsive typography
     @media screen and (min-width: 1024px) {
         --biggest-font-size: ;
@@ -41,12 +59,4 @@
         --small-font-size: ;
         --smaller-font-size: ;
     }
-
-    /*========== Font weight ==========*/
-    --font-medium: 500;
-    --font-semi-bold: 600;
-
-    /*========== z index ==========*/
-    --z-tooltip: 10;
-    --z-fixed: 100;
 }
